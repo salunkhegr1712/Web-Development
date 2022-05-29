@@ -1,0 +1,65 @@
+/* here we are just usimg the selctors directly */
+/*
+always remember that id and class selectors are more specific than global selectors and
+we can use them wisely and it makes our life simple */
+
+/* you can have a group of tags having same class but id is always unique */
+/* any tag can have more than one class but always have only one id */
+/* class vs id is just like name vs identity number */
+/* id fetched with use of the #
+class is fetched with the . */
+
+
+body {
+  background-color: #ECE5C7;
+}
+
+h1 {
+  color: red;
+
+  font-family: cursive;
+  font-style: oblique;
+  font-size: 50px;
+  text-align: center;
+  text-decoration:underline
+}
+
+/* so say if youre scrolling over image so hover will change its background differnet and it will make your site look good */
+/* it feel like live pages if you use subclass hower below is its syntax and how to use it */
+img:hover {
+  background-color: gold;
+
+}
+
+/* this block will give you information about the how to center the image with use of div
+here display div as grid and place it at center is done placed */
+
+div {
+  display: grid;
+  place-items : center;
+}
+
+p {
+  text-align: center;
+}
+
+/* from here onwards we are going to use the classes to fetch as selctors and it is more
+convincing to use the class than using the selectors directly */
+.bacon {
+  background-color: green;
+}
+
+/* fetching differnet class from the same tag i.e. becon */
+
+/* border radius is being used to make corners of the image circular */
+/* you should also remember that it is not neccesary that to use the px always
+you can use the % values also so that it make more sense */
+.circular {
+  border-radius: 20px;
+}
+
+/* use id selectors */
+
+#broccoli {
+  background-color: red;
+}

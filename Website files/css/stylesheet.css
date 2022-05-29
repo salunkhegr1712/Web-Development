@@ -1,0 +1,28 @@
+body {
+  background-color:#E3FCDF;
+}
+hr {
+  border-style:none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: dotted;
+  border-width:6px;
+  border-color: #A9A9A9;
+  width: 6%;
+}
+h1 {
+  font-family:fangsong;
+  color: #6641BF;
+}
+
+h2{
+  font-family:cursive;
+  color: #6641BF;
+}
+ h3{
+   font-family:cursive;
+
+   color: #6641BF;
+
+ }

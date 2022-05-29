@@ -14,15 +14,50 @@ hr {
 h1 {
   font-family:fangsong;
   color: #6641BF;
+  font-size: 40px;
+  text-align: center;
 }
 
 h2{
   font-family:cursive;
   color: #6641BF;
+  font-size: 30px;
+  text-align: center;
 }
  h3{
-   font-family:cursive;
 
    color: #6641BF;
+   font-family:cursive;
+   text-align: center;
+
+
 
  }
+
+a:hover {
+color:green;
+
+}
+
+
+.new {
+  text-align:center;
+}
+.new:hover {
+  color: #E8F9FD;
+  background-color: #112B3C;
+
+}
+.top {
+  display: grid;
+  place-items : center;
+}
+.xyz:hover {
+  color: #E8F9FD;
+  background-color: #112B3C;
+}
+
+a {
+  color:#A25B5B;
+
+}

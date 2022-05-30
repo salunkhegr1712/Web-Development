@@ -1,0 +1,68 @@
+body {
+  background-color: skyblue;
+}
+/* id is more specific than that of the class */
+.a {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: inline;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+.b {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  display: inline;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.c {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+another way to do it with help of the id*/
+/*
+#becon {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  /* converting block element div to inline element */
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+*/
+/*
+#cinema {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  /* converting block element div to inline block element */
+  position: absolute;
+  top: 200px;
+  left: 200px;
+} */
+
+/*
+#movie {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+} */

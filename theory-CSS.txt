@@ -1,0 +1,160 @@
+###  block and inline elements
+
+there are two types of the elements are there in html
+1) inline elements
+  images <img>
+  anchors <a>
+  spans <span>
+
+  these elements does not block anyone to written upfromt of them
+  so we can use mulitple elements in same line with help of the inline
+  demerit of them are that it do not have any width so you cant assign width to it
+  and inline elements will show output of next elements upnext to previous inline
+
+2) block elements
+
+  division <div>
+  pargraph <p>
+  section <section>
+
+  these tags will disallow to use the same block to any other element and it will block
+  someone who came and try to write next to the block element and it have configurations like
+  having width and height is its major advantages
+
+
+display functionality in css
+  if any tag  say
+    p {
+      display : inline;
+    }
+
+    so here above as you can see p is an block element but as we specfied the inline in
+    the display it will act like an inline element
+
+    attribute of display
+    a) inline
+    b) block
+    c) inline-block
+    d) none
+
+    inline used to make element act like inline even if it is functionality
+    ex :
+          p {
+            display : inline;
+          }
+
+    block used to make element act like block even if it is functionality
+    ex:
+        span {
+          display: block;
+        }
+    inline-block is usefull that it has inline property and at the same time you will
+    also will able to do adjustments in width and height
+
+    ex:
+        span {
+          display: inline-block;
+        }
+    none will just hide output
+
+    there is another way to hide the output
+
+    element {
+      visibility: hidden;
+    }
+
+
+## Box-Model of html and css
+
+there is block that is called as box model and every division follow it
+example for text::
+
+margin -> border -> padding -> text
+
+you always have to adjust all four of the attributes for margin border so that it makes sense
+for the understanding
+
+
+// note : always try to use the inline-block as it provide much functions and inline also gave
+lot of errors and problem and inline- block can save your time at that perticular instant
+
+## position and the alignment on the web pages
+
+factors:
+
+        1) content is everything
+          the things which you write in your web pages will determine the position accordingly understanding
+          all other things are attached to each other and position of the one is can be determine on the
+          basis of others
+
+        2) Order
+          the order on which you write the data will always matters and accordingly it will place another
+          element output so order is important in sense of the position
+
+        3) parent
+          child always been place over the parent on z axis and parent lies on xy plane with respect
+          to the child and most young one among the set of elements of parent and child will seen on top
+          and second youngest and third youngest will positioned accordingly.
+
+
+position functionalityin class
+
+position :
+          1) Static
+          it is just like the original by default setting of the html values
+
+          2) Relative
+
+          so we see siblings here and position of siblings depends on one another
+          sense of movement in relative mode
+
+          sense of direction :
+
+          div {
+            position: relative
+            top :x px; shift block to bottom by x pixels
+            bottom: x px; shift block to top by x pixels
+            left: x px; shift block to right by x pixels
+            right: x px; shift block to left by x pixels
+          }
+
+          here overlapping is posible and and it is also possible that block can also
+          go out of the screen / display. in it we just push the element and it generate
+          possibility of push to dead end(out of the screen)
+
+          3) Absolute
+          here things gets to get more and more confusing
+          absolute never push element to dead end
+          so it breaks connection of a element with its sibling and directly connect it with the
+          its parent and that element can now go whatever in webpage but with respect to its parent
+
+          sense of direction :
+
+        assumption::  img is prensent in div tag in html
+
+          div {
+
+            position: relative
+            top :x px; place the block such that it is at distance of x pixel from top
+            bottom: x px; place the block such that it is at distance of x pixel from bottom
+            left: x px; place the block such that it is at distance of x pixel from left side
+            right: x px; place the block such that it is at distance of x pixels from right side
+          }
+
+          img{
+            position: absolute;
+          }
+          overlapping is posible but it is 2d when you see 3d the overlapping is not there as
+          it has different z axis
+          also here our element never goes out of the box
+
+          4) Fixed
+          ok so it is just simple that
+          say
+          Ex:
+          div {
+          position: Fixed;
+          }
+
+          so even if you scroll website the Fixedarea will alwaysbe Fixed and you cant change its
+          location either it mostly used for fixed sidebars

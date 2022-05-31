@@ -1,0 +1,65 @@
+## display functionality in css
+##  block and inline elements
+
+there are two types of the elements are there in html
+1) inline elements
+  images <img>
+  anchors <a>
+  spans <span>
+
+  these elements does not block anyone to written upfromt of them
+  so we can use mulitple elements in same line with help of the inline
+  demerit of them are that it do not have any width so you cant assign width to it
+  and inline elements will show output of next elements upnext to previous inline
+
+2) block elements
+
+  division <div>
+  pargraph <p>
+  section <section>
+
+  these tags will disallow to use the same block to any other element and it will block
+  someone who came and try to write next to the block element and it have configurations like
+  having width and height is its major advantages
+
+
+display functionality in css
+  if any tag  say
+    p {
+      display : inline;
+    }
+
+    so here above as you can see p is an block element but as we specfied the inline in
+    the display it will act like an inline element
+
+    attribute of display
+    a) inline
+    b) block
+    c) inline-block
+    d) none
+
+    inline used to make element act like inline even if it is functionality
+    ex :
+          p {
+            display : inline;
+          }
+
+    block used to make element act like block even if it is functionality
+    ex:
+        span {
+          display: block;
+        }
+    inline-block is usefull that it has inline property and at the same time you will
+    also will able to do adjustments in width and height
+
+    ex:
+        span {
+          display: inline-block;
+        }
+    none will just hide output
+
+    there is another way to hide the output
+
+    element {
+      visibility: hidden;
+    }

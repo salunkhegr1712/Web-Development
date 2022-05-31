@@ -1,0 +1,31 @@
+# how to do font settings in css
+
+it is case that fonts were always vary with respect to the operating system you're using
+and you will also have the settings to do for render you're perticular fonts
+
+
+
+else you have option to make your font universal by using the google fonts
+
+Example :
+          as you can see we gave large number of the fonts and we are giving widely known font so that it
+          can render in maximum number of the devices it is important fr increasing the reach of the
+          your website
+
+          font-family: "Helvetica neo",Helvetica,Arial, sans-serif;
+
+Explanation:
+
+          so prefer helavantica neo if not prefer helvantica if not then arial or else at the worst condition
+          use any present font in sanserif family corrosponding to that perticular operating system
+          
+-----------------------------------------------------------------------------------------------------------------------
+
+## make font scheme universal for your website
+
+          go to fonts.google.com
+
+          select any font you want and at last you will get link element which you can dirctly put
+          inside of the head tag and we can able to use it dirctly
+
+          you will also get the css attribute corrosponding to that fonts

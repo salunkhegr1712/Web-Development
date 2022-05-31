@@ -1,0 +1,14 @@
+
+## Box-Model of html and css
+
+there is block that is called as box model and every division follow it
+example for text::
+
+margin -> border -> padding -> text
+
+you always have to adjust all four of the attributes for margin border so that it makes sense
+for the understanding
+
+
+// note : always try to use the inline-block as it provide much functions and inline also gave
+lot of errors and problem and inline- block can save your time at that perticular instant

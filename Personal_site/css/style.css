@@ -1,34 +1,136 @@
 body {
-  background-color: #EFFFFF;
+  background-color: #B7E5EF;
   text-align: center;
+  font-family: 'Hepta Slab', serif;
 }
+
 h1 {
-  font-family: 'Courier New', monospace;
-  width: 30%;
-  font-size: 40px;
+  font-family: 'Meddon', cursive;
+  ;
+  font-size: 50px;
   margin: auto;
 }
+
+h2 {
+  color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  margin: auto;
+
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+}
+.main {
+  margin-left: 25%;
+  position: relative;
+  width: 50%;
+  height: 40%;
+  align-items: center;
+}
+
 .cloud1 {
   position: relative;
   margin-top: 20px;
-  left: 25%;
+  margin-bottom: 20px;
+  left: 200px;
   width: 200px;
   height: 100px;
-  top:4%;
+  top: 10px;
 }
 
+.first {
+  height: auto;;
+  width: auto;;
+}
 .cloud2 {
   position: absolute;
   width: 150px;
   height: 80px;
-  top: 25%;
-  left: 25%;
+  top: 10%;
+  left: 10%;
+}
+
+.pargraph {
+  font-size: 16px;
 }
 
 .mountain {
-
+  width: 750px;
+  height: 550px;
 }
 
-#bio {
-  font-family: 'Brush Script MT', cursive;
+.list {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.link {
+  color: black;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #F32424;
+}
+
+.skill {
+
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.project {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.hello1 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hello2 {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+  width: 100%;
+}
+th {
+    font-size: 25px;
+}
+tr {
+    font-size: 20px;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+}
+.abcd {
+  width: 60px;
+  height: 60px;
+}
+
+.sk {
+  display: inline-block;
+  align-items: center;
+}
+.skill-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  font-size: 13px;
 }

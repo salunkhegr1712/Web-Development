@@ -1,0 +1,7 @@
+it is very important and usefull attribute which is used for sideby side showing you can use table
+also but the table is kind of so much messy and float make it us easy to align the text and images sideby side
+
+it has deafalut set of the values like the float to left right and few another with it
+
+there is another attribute is there which acts like opposite of the float ::
+clear it will push text or next block top new line

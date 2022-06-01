@@ -1,0 +1,30 @@
+##sizing of differnet elements in the CSS
+
+you can provide css sizing in many ways but there are two main ways :
+giving info in pixel or in percentage so the percentageway is better as you dont know the size and the aspect
+
+so genrally no of pixels for the some percentage is always varies and it will never be constant
+
+so always prefer to use percentage
+
+
+## division
+ it is also known as the div tag which most usefull one and you can use it whenever you want as we know that we follow the
+ box model so div is block elements and it help allot in formatting and lot of other stuff also
+
+if you provide the values in pixels so your website fail to deliver message as your main text look smaller than
+unnecessary once
+so to tackle that issue we use the dynamic sizing and it is allot helpfull than that of the normal once
+
+px value directly will always give the static value
+two ways to provide dynamic sizing:
+
+ 100 %=16px
+ 1em=16px
+
+ em and also with the percentage amplify the size
+ say you provide a font size of 2em inside the body
+ and then you give another font size in h1 say 4 em so here the total size which the css will display will give
+ is total 6em it basically add the  data you have given
+
+ so now tackle this problem we got rem which is modification of em and here rem does not matter if size already given or not

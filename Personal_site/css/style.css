@@ -1,33 +1,56 @@
 body {
-  background-color: #B7E5EF;
   text-align: center;
   font-family: 'Hepta Slab', serif;
+  font-size: 1.5rem;
 }
 
+#bio {
+  font-size: .8rem;
+}
+#one {
+  font-size: 1rem;
+}
+#eng {
+  font-size: 1rem;
+  text-decoration-line: underline;
+}
 h1 {
-  font-family: 'Meddon', cursive;
-  ;
-  font-size: 50px;
+font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #4D4C7D;
   margin: auto;
 }
 
 h2 {
   color: red;
   font-family: 'Dancing Script', cursive;
-  font-size: 45px;
+  font-size: 4.1rem;
   margin: auto;
 
 }
 
-h3 {
-  font-family: 'Courgette', cursive;
-  font-size: 40px;
-}
 
 h4 {
-  font-size: 20px;
+  font-size: 1rem;
+
+}
+
+hr {
+    border-top-style: dashed;
+    width: 10%;
+    color:#2E0249;
+    border-top-width: 10px;
+    margin-bottom-style: 0;
+    margin-left-style:0;
+    margin-right-style:0;
+}
+
+
+#new {
+  font-size: 300%
 }
 .main {
+
   margin-left: 25%;
   position: relative;
   width: 50%;
@@ -36,37 +59,42 @@ h4 {
 }
 
 .cloud1 {
+
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
   left: 200px;
   width: 200px;
-  height: 100px;
+  height: 150px;
   top: 10px;
 }
 
 .first {
-  height: auto;;
-  width: auto;;
+
+  background-color: #B7E5EF;
+  height: auto;
+  width: auto;
 }
 .cloud2 {
+
   position: absolute;
   width: 150px;
-  height: 80px;
+  height: 100px;
   top: 10%;
-  left: 10%;
+  left: 5%;
 }
 
-.pargraph {
-  font-size: 16px;
-}
 
 .mountain {
-  width: 750px;
-  height: 550px;
+
+  width: 700px;
+  height: 500px;
+  border-bottom: 2px solid;
+  padding-bottom: 0;
 }
 
 .list {
+
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -74,8 +102,13 @@ h4 {
 }
 
 .link {
+
   color: black;
-  font-size: 20px;
+  font-size: 1rem;;
+
+}
+.link:visited {
+  color: #80901F;
 }
 
 .link:hover {
@@ -84,8 +117,8 @@ h4 {
 
 .skill {
 
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 28%;
+  margin-right: 28%;
 }
 
 .project {
@@ -109,28 +142,42 @@ h4 {
   width: 100%;
 }
 th {
-    font-size: 25px;
+    font-size: 150%;
 }
 tr {
-    font-size: 20px;
+    font-size: 75%;
+}
+.pargraph {
+  font-size: 1.2rem;
 }
 .photo {
   width: 250px;
   height: 250px;
 }
 .abcd {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
 }
 
+.program {
+  display: inline-block;
+}
 .sk {
+
   display: inline-block;
   align-items: center;
 }
 .skill-row {
+
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
+
 }
 span {
-  font-size: 13px;
+  font-size: 1rem;
+}
+
+.tab {
+  display: inline-block;
 }

@@ -1,0 +1,9 @@
+font-weight
+
+it is an attribute is widely used for the making text bold and less light so wight is used for making text
+bolder and thinner
+
+it has many attribute some are preset and few are the value and you can give value lower the value
+thinner the text looks
+
+and preset are normal light and etc

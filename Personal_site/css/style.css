@@ -1,9 +1,11 @@
 body {
   text-align: center;
+  color: #40514E;
   font-family: 'Hepta Slab', serif;
   font-size: 1.5rem;
   font-weight: lighter;
   margin: 0 0 0 0;
+  line-height: 1.8;
 }
 
 #one {
@@ -12,6 +14,7 @@ body {
 
 #ttt {
   color: #005555;
+  line-height: 1.3;
 }
 
 .eng {
@@ -40,6 +43,7 @@ h3 {
   font-size: 2.5rem;
   font-family: 'Unica One', cursive;
   font-weight: 400;
+  line-height: 1.8;
 }
 
 h4 {
@@ -48,10 +52,11 @@ h4 {
 }
 
 hr {
-  border-top-style: dashed;
+  display: block;
+  border-top-style: dotted;
   width: 10%;
-  color: #413F42;
-  border-top-width: 7px;
+  color: lightgray;
+  border-top-width: 15px;
   margin-bottom-style: 0;
   margin-left-style: 0;
   margin-right-style: 0;
@@ -110,6 +115,7 @@ hr {
 .link {
   color: black;
   font-size: 1.5rem;
+  text-decoration: none;
   ;
 }
 
@@ -153,12 +159,15 @@ hr {
 th {
   font-size: 150%;
   font-weight: lighter;
-}
 
+}
+.bbb {
+  line-height: 1.8;
+}
 tr {
   font-size: 75%;
   font-weight: lighter;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .pargraph {
@@ -200,8 +209,8 @@ span {
 }
 
 .hob {
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   float: left;
 }
 
@@ -215,7 +224,7 @@ span {
 
 .nnn {
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.8;
   width: 70%;
   margin-left: 30%;
 }
@@ -234,6 +243,10 @@ span {
   font-weight: 200;
   background-color: #6FB2D2;
   border-radius: 10px;
+
+}
+.none:hover{
+  background-color: #B7E5EF;
 
 }
 .bottom-container {

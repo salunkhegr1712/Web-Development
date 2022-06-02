@@ -3,10 +3,15 @@ body {
   font-family: 'Hepta Slab', serif;
   font-size: 1.5rem;
   font-weight: lighter;
+  margin: 0 0 0 0;
 }
 
 #one {
   font-size: 2.3rem;
+}
+
+#ttt {
+  color: #005555;
 }
 
 .eng {
@@ -17,7 +22,7 @@ body {
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.3rem;
-  color: #646FD4;
+  color: #36AE7C;
   margin-top: 0;
   font-weight: 100;
   margin-bottom: 0;
@@ -31,22 +36,22 @@ h2 {
 }
 
 h3 {
-  color: #646FD4;
+  color: #F806CC;
   font-size: 2.5rem;
   font-family: 'Unica One', cursive;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
 hr {
   border-top-style: dashed;
   width: 10%;
-  color: #2E0249;
-  border-top-width: 10px;
+  color: #413F42;
+  border-top-width: 7px;
   margin-bottom-style: 0;
   margin-left-style: 0;
   margin-right-style: 0;
@@ -104,7 +109,7 @@ hr {
 
 .link {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   ;
 }
 
@@ -112,6 +117,9 @@ hr {
   color: #4C3575;
 }
 
+.neww {
+  color: red;
+}
 .link:hover {
   color: #F32424;
 }
@@ -183,7 +191,7 @@ tr {
 }
 
 span {
-  font-size: 1rem;
+  font-size: 1.53rem;
 }
 
 .tab {
@@ -191,9 +199,6 @@ span {
   border-spacing: 25px;
 }
 
-.contact-me {
-  background-color: #B7E5EF;
-}
 .hob {
   width: 25%;
   height: 25%;
@@ -214,9 +219,23 @@ span {
   width: 70%;
   margin-left: 30%;
 }
+
 .cl {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  margin-top:auto;
+  margin-top: auto;
+}
+
+.none {
+
+  padding: 4px 20px;
+  font-size: 100%;
+  font-weight: 200;
+  background-color: #6FB2D2;
+  border-radius: 10px;
+
+}
+.bottom-container {
+  background-color: #B7E5EF;
 }

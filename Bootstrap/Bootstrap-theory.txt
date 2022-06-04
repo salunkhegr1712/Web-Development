@@ -1,0 +1,24 @@
+wireframing
+it is concept in which we create a structure around which we want to built our website it may be too close to final
+product or just be rough one
+wireframing play important part of the communication between client and the programmer so that programmer can understood the demands
+of the customer and work accordingly with that
+
+important and helpfull website to visit
+
+dribble
+ui-pattern
+
+## bootstrap
+
+it is a online open source reoositary created by the tweeter developers
+
+it is a collection of the css and the java documents which are created by the tweeter users and it contains a
+large number of classes which has predefined set of attribute for each class so one who know things about bootstrap not have to
+worry alot for writing large css code and it has large other functionalitiess also which are quite usefull like
+it has many template code which we can directly use
+
+there are multiple way to use bootstrap
+
+local file
+link online

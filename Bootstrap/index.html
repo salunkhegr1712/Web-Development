@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap</title>
+  <!-- CSS only -->
+  <!-- the following will add the bootstrap to your file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+</head>
+
+<body>
+
+
+  <!-- nav is very similar to the div but nav is more specific and mainly used for creation of the navigation bar which is
+our goal that to create a navigation bar -->
+  <!-- link used in navigation bar is designed with nav-link -->
+  <!-- items used in navigation bar is designed with nav-item -->
+  <!-- navbar-expand rotate vertical text to horizontal one  it also have some extra attribute like sm large and accordingly
+used for device which youre going to work-->
+  <!-- bg-color will provide the colour -->
+  <nav #id class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <!-- navbar class used to appy default bootstrap navbar setting on our nav tag -->
+    <!-- we are usig a anchor tag which is usd in order to make a logo name which belongs to some company or some brand -->
+    <a class="navbar-brand" href="#">GRS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ms-auto">
+        <!-- navbar-nav will remove the unordered blocks or bullets which we see specifically -->
+        <!-- nav-item is list attribute so  that it can be used for showing the texts
+    is in a navigation bar -->
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Company</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+      </ul>
+    </div>
+
+
+  </nav>
+
+</body>
+
+</html>

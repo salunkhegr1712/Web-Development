@@ -1,0 +1,101 @@
+/* code for section 1 */
+body {
+  font-style: Montserrat;
+}
+
+#topside {
+  background-color: #ff4c6f;
+  border: 2px solid;
+}
+
+h1 {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 70%;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: -5rem;
+}
+
+.navbar {
+  padding-bottom: 1.5rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 10;
+}
+
+span {
+  font-weight: 560;
+}
+
+.btn-success {
+  background-color: #00FFAB;
+}
+
+#main {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.mrgn {
+  margin: 8% 8% 0 0;
+}
+
+/* use rotation from transform we specify degrees to be rotate */
+.crop {
+  width: 60%;
+  padding-left: 10%;
+  padding-top: 5%;
+  transform: rotate(25deg);
+
+}
+/* code for section features */
+#features {
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+}
+
+.style {
+
+}
+
+.image1 {
+  width: 25%;
+  padding-bottom: 10%;
+  margin-left: 40%;
+
+}
+
+.text1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 2%;
+}
+
+.text2 {
+
+  text-align: center;
+  caret-color: #8f8f9f;
+  line-height: 1.5;
+}
+.image1:hover {
+  color: #ff4c6f;
+}

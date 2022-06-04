@@ -21,4 +21,12 @@ it has many template code which we can directly use
 there are multiple way to use bootstrap
 
 local file
+
 link online
+
+**********************************************important**********************************************
+
+# if youre going to use the multiple style sheet say your own and a link to CDN bootstrap then bootstrap
+link must always should be at top of your stylesheet
+also we dont have added any java script so we are going to use the default java script as we dont studied it yet
+add script file link to body or header above our stylesheet

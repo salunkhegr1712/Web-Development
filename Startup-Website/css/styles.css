@@ -189,13 +189,15 @@ knowledge needed to implement it */
 
   /* if condition is true so if screen size is less than than 1018
   above condition will play its part to make our website mobile friendly */
-  #topside {
+  .row1 {
     text-align: center;
+    margin-left: 10%;
   }
 
   .imgg {
     width: 70%;
     padding-top: 10%;
+    margin-right: 10%;
     transform: rotate(0);
     position: static;
   }

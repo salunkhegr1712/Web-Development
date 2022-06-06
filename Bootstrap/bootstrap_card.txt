@@ -1,0 +1,33 @@
+the bootstrap cards are just like three layout card which has 3 main elements inside of it and it plays important
+role in  many kind and it is also preety easy to use and it is also a simple to use elements
+
+here for create the card we just use the three class card-body, card-header, card-footer inside the main
+ class called card and all of the classes are presence in the div
+
+ ex:
+
+
+      <div class="card">
+          <div class="card-header">
+          </div>
+          <div class="card-body">
+          </div>
+          <div class="card-footer">
+          </div>
+      </div>
+
+    so each of the sub div say header body footer all has a horizontal area to cover so in order to make the multiple cards at
+    side-by-side view then you have use:
+    class="card-group"
+    and div block will look like::
+
+    <div class="card-group">
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+    </div>

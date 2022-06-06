@@ -1,0 +1,23 @@
+Carousel
+A slideshow component for cycling through elements—images or slides of text—like a carousel.
+
+How it works
+The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.
+
+In browsers where the Page Visibility API is supported, the carousel will avoid sliding when the webpage is not visible to the user (such as when the browser tab is inactive, the browser window is minimized, etc.).
+
+Please be aware that nested carousels are not supported, and carousels are generally not compliant with accessibility standards.
+
+Lastly, if you’re building our JavaScript from source, it requires util.js.
+
+Example
+Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit.
+
+Be sure to set a unique id on the .carousel for optional controls, especially if you’re using multiple carousels on a single page.
+
+Slides only
+Here’s a carousel with slides only. Note the presence of the .d-block and .img-fluid on carousel images to prevent browser default image alignment.
+
+in v5.0  changes
+
+data-ride is changed to data-bs-ride

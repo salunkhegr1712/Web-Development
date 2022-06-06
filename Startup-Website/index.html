@@ -22,16 +22,18 @@
 
   <section id="topside">
 
-  <!-- fluid seems more good that of only container
+    <!-- fluid seems more good that of only container
   normal containder is jumpy
   fluid is adaptive -->
     <div class="container-fluid">
-<!-- so we take container-fluid and take advantages of its adpativeness and add the padding ourselves -->
+      <!-- so we take container-fluid and take advantages of its adpativeness and add the padding ourselves -->
       <nav class="navbar navbar-expand-lg navbar-dark ">
 
         <!-- navbar class used to appy default bootstrap navbar setting on our nav tag -->
         <!-- we are usig a anchor tag which is usd in order to make a logo name which belongs to some company or some brand -->
-        <a class="navbar-brand" href="#"><h2 id="main">TinDog >> </h2></a>
+        <a class="navbar-brand" href="#">
+          <h2 id="main">TinDog >> </h2>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +54,7 @@
 
       </nav>
 
-      <div class="row">
+      <div class="row row1">
         <!-- THIS IS GRID col-lg-6 that means that that as total grid for whole screen is about 12 so we just have to do it 50%
       means two cols od 50% of 12 i.e. 6 -->
 
@@ -67,13 +69,14 @@
           <button type="button" class="btn btn-success btn-outline-dark btn-lg mrgn" name="button"><i class="fa-brands fa-apple"></i> <span> Download</span> </button>
           &nbsp &nbsp
           <button type="button" class="btn btn-success btn-outline-dark btn-lg mrgn" name="button"><i style='font-size:24px' class='fab'>&#xf3ab;</i><span> Download</span> </button>
+<br><br>
         </div>
         <div class="col-lg-6">
           <img class="imgg crop" src="images/iphone6.png" alt="TinDog-Profile">
         </div>
       </div>
-
     </div>
+=
 
   </section>
 
@@ -84,17 +87,17 @@
         <div class="col-lg-4 style1">
           <img src="images/checked.png" class="image1" alt="checked-image">
           <h3 class="text1">Easy to use.</h3>
-          <p class="text2">So easy to use, even your dog could do it.</p>
+          <p class="text2">So easy to use, even your dog <br> could do it.</p>
         </div>
         <div class="col-lg-4 style1">
-        <img src="images/bullseye.png" class="image1" alt="bullseye-image">
+          <img src="images/bullseye.png" class="image1" alt="bullseye-image">
           <h3 class="text1">Elite Clientele</h3>
-          <p class="text2"> We have all the dogs, the greatest dogs.</p>
+          <p class="text2"> We have all the dogs, the <br> greatest dogs.</p>
         </div>
         <div class="col-lg-4 style1">
-          <img src="images/heart.png"  class="image1" alt="">
+          <img src="images/heart.png" class="image1" alt="">
           <h3 class="text1">Guaranteed to work.</h3>
-          <p class="text2">Find the love of your dog's life or your money back.</p>
+          <p class="text2">Find the love of your dog's life or <br>your money back.</p>
         </div>
 
       </div>
@@ -106,51 +109,111 @@
 
   <section id="customer">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt=""> <em>Pebbles,New Jersy</em> <br>
+    <div class="carousel slide" id="carousel-non-automated" data-ds-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="hiii">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img src="images/dog-img.jpg" class="testt" alt="Dog-testomonial"> <em>Pebbles,New Jersy</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="hiii">My dog used to be so lonely but with TinDog's help, they've found love of there life, I think </h2>
+          <img src="images/nancy.png" class="testtt" alt="Nancy-testomonial"> <em>Nancy Wheeler,Hawkins</em>
+        </div>
+
+      </div>
+
+      <button type="button" class="carousel-control-prev" data-bs-target="#carousel-non-automated" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button type="button" class="carousel-control-next" data-bs-target="#carousel-non-automated" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
 
   </section>
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="Techcrunch-Image"><br>
-    <img src="images/tnw.png" alt="TNW-Image">
-    <img src="images/bizinsider.png" alt="Buisness-Insider-Image">
-    <img src="images/mashable.png" alt="Mashable-Image">
+    <img src="images/TechCrunch.png" alt="Techcrunch-Image" class="neww">
+    <img src="images/tnw.png" alt="TNW-Image" class="neww">
+    <img src="images/bizinsider.png" alt="Buisness-Insider-Image" class="neww">
+    <img src="images/mashable.png" alt="Mashable-Image" class="neww">
   </section>
+
+  <!--
+so we are just using div and its class card and card elements and now we will focus on the arranging data in such a way that it can adapt
+the screen resolution and work according to that and only div card will provide you only horizontalfrid so in order to put the cards side-by-side
+then we just have to use the class called card-group -->
+
+  <!-- we preffer to use the grid as with grid we can able to add the adaptivity with use of the grid in boootstrap -->
   <section id="pricing">
+
+
     <h2>A Plan for Every Dog's Needs</h2>
-    Simple and affordable price plans for your and your dog.
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
 
-    <p>5 Matches Per Day</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 cleas">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
 
-    <p>10 Messages Per Day</p>
+            <p>5 Matches Per Day</p>
 
-    <p>Unlimited App Usage</p>
+            <p>10 Messages Per Day</p>
 
-    <button type="button" name="button">Signup</button>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-dark btn-lg bt1">Signup</button>
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
+          </div>
+        </div>
+      </div>
 
-    <p>Unlimited Messages</p>
+      <div class="col-lg-4 col-md-6 cleas">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
 
-    <p>Unlimited App Usage</p>
+            <p>Unlimited Messages</p>
+
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-lg bt1">Signup</button>
+
+          </div>
+        </div>
+      </div>
 
 
-    <button type="button" name="button">Signup</button>
 
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches </p>
+      <div class="col-lg-4 cleas">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Priority Listing</p>
+            <p>Unlimited Matches </p>
 
-    <p>Unlimited Messages</p>
+            <p>Unlimited Messages</p>
 
-    <p>Unlimited App Usage</p>
-    <button type="button" name="button">Signup</button>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-lg bt1">Signup</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
 
 
   </section>

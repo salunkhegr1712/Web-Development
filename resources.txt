@@ -11,3 +11,5 @@ fonts.google.com
 codeply
 techcrunch
 github
+ui-pattern
+bootsnipp

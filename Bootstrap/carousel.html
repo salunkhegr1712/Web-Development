@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Leaning carousel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--
+always remember meaning of each class which youre using and how does it will affect your design and hoe much it will
+usefull to us -->
+
+<!-- carousel and slide are two basic classes with includes the carousel and the slide get added inside the carousel
+data-bs-interval is adds the time after the next image will be seen
+data-bs-ride enable automated slideshow if it is false then images will not changes automatically in that you
+shouldhave to add buttons here you can add button in any elementsjust assigne role as button to it -->
+
+<!-- data bs pause will stop the image so if youre hovering over the image it will stop -->
+<!-- this belowed slideshow is automated one  -->
+    <div class="carousel slide" id="carousel-id1" data-bs-ride="carousel" data-bs-interval="1000" data-bs-pause="hover">
+      <!-- anotehr class inside which our elements will go -->
+      <div class="carousel-inner">
+        <!-- first element in inner part of carousel should be the active so that slideshoe is able to run properly
+        and it also has class which show that inner division is a carousel -->
+        <div class="carousel-item active">
+          hello text1
+        </div>
+        <div class="carousel-item">
+          Intermediate text
+        </div>
+        <div class="carousel-item">
+          Final Text
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- non automated slideshow -->
+<!-- here very important to place data-bs-interval to false so that the system of slideshow will become non automated -->
+
+<div class="carousel slide" id="carousel-non-automated" data-bs-interval="false">
+  <div class="carousel-inner">
+      <!-- at least one of the element of the carousel should be the active one -->
+    <div class="carousel-item active" style="background-color:blue">
+      first
+    </div>
+    <div class="carousel-item" style="background-color:red">
+      Second
+    </div>
+    <div class="carousel-item" style="background-color:yellow">
+      Third
+    </div>
+
+  </div>
+
+<!-- here we add button which has classses carouel-control-pre and carouel-control-next which are the button which provide the information
+about the next and prev slides
+and we also provide target for changes which is id of the main division in all of them
+and also we transfer the slide info thriugh data-bs-slide  and values of its are next or the prev -->
+
+   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-non-automated" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" ></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-non-automated" data-bs-slide="next">
+    <span class="carousel-control-next-icon" ></span>
+  </button>
+
+</div>
+</html>

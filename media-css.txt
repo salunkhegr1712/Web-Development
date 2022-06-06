@@ -1,0 +1,25 @@
+so you can have different kinds of conditions and according to that you want to make chanegs Insider your stylesheet
+so here media queries will come to play
+
+so say u have something say if scrren resolution is less 1000px so you want to gove look to page which look different
+that of when its size is greater than 1000px
+
+so media query exmaple is given below
+
+@media (max-width:1000) {
+  style
+}
+
+so if max width of your screen is below 1000 the style which yo will provide inside the media
+query that will get implemented on top of that
+
+you can also give the multiple conditions like
+
+@media (max-width:1000) and (min-width:800){
+code
+}
+
+so it will effective under the 800 to 1000 range
+
+you should write media conditions at last in css because if you put it befaore happening incident of old event it
+does not matter allot

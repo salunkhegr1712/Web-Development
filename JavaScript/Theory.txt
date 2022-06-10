@@ -1,0 +1,15 @@
+data types:
+
+numbers (1234...)
+string ("all inside of double quotes is a string")
+boolean it has inly two possible values and that are (true false)
+
+variables:
+
+var name_you_want to give_to_variable = any_data
+
+var is automatically find the datatype whatever you gave
+var has to used only once
+
+for hard reload and cleaR THE Ccatche all we have to do is press
+***ctrl+left key

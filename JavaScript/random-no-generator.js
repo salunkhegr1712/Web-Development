@@ -12,6 +12,8 @@ console.log(c);
 
 
 // code for the love calculator
+var fname=prompt("What is Your name?");
+var yname=prompt("What is Your partner's name?");
 
 var c=Math.random()
 var range=100;

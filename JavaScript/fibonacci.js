@@ -2,14 +2,14 @@ var arr = [];
 
 function fibonacciGenerator(n) {
   //Do NOT change any of the code above 👆
-  var n1 = 1;
+  var n1 = 0;
   var n2 = 1;
   var i = 0;
   var j;
 
   //Write your code here:
   if (n === 0) {
-    return [0];
+    return arr;
   } else if (n === 1) {
     arr.push(n1);
     return arr;
@@ -27,9 +27,11 @@ function fibonacciGenerator(n) {
       arr.push(n2);
 
     }
-    return arr;
   }
   //Return an array of fibonacci numbers starting from 0.
 
   //Do NOT change any of the code below 👇
 }
+var f=prompt("Enter Number::")
+fibonacciGenerator(f);
+console.log(arr);

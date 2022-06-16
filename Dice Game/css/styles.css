@@ -37,3 +37,8 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+span {
+  color: red;
+  font-family: sans-serif;
+  font-size: 2rem;
+}

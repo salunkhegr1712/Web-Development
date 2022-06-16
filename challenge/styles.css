@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+
+}
+
+/* we re just writing the dummy class in the css file and we will toggle it with the help of
+javascript */
+
+.huge {
+  font-size: 10rem;
+}

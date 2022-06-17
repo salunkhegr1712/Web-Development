@@ -1,0 +1,12 @@
+.btn {
+  width: 15%;
+  height: 2rem;
+}
+
+.btn:hover {
+  background-color: red;
+}
+/* active is present when click is under process */
+.btn:active {
+  background-color: skyblue;
+}

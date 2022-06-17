@@ -1,0 +1,22 @@
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+
+
+my code
+
+var a=new Date();
+var b=a.getFullYear();
+var c=a.getMonth();
+var d=a.getDate();
+
+var e=a.getHours();
+var f=a.getMinutes();
+var g=a.getSeconds();
+
+var date="Date : "+d+ " / "+c +" / "+b;
+var time="Time: "+e+ " : "+f +" : "+g;
+
+console.log(date + " " +time);

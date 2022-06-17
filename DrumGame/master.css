@@ -1,0 +1,78 @@
+span {
+  color: red;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+.all {
+  background-color: #06283D;
+  color: #DFF6FF;
+  text-align: center;
+}
+
+.btt {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 6rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 2rem;
+  font-weight: bold;
+  border: .4rem solid #47B5FF;
+  background-color: #DFF6FF;
+  color: #06283D;
+}
+
+.btt:hover {
+  background-color: #D61C4E;
+}
+
+.btt:active {
+  background-color: #FAC213;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+}
+
+h1 {
+  font-family: "Arvo", cursive;
+  font-size: 6rem;
+  text-shadow: red 5px 4px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.w {
+  background-image: url(images/crash.png);
+}
+
+.a {
+  background-image: url(images/kick.png);
+}
+
+.s {
+  background-image: url(images/snare.png);
+}
+
+.d {
+  background-image: url(images/tom1.png);
+}
+
+.j {
+  background-image: url(images/tom2.png);
+}
+
+.k {
+  background-image: url(images/tom3.png);
+}
+
+.l {
+  background-image: url(images/tom4.png);
+}

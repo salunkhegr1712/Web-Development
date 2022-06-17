@@ -1,0 +1,1 @@
+javascript has a good way to store the data in a proper format

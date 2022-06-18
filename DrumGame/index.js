@@ -10,7 +10,9 @@ function handleclick() {
   // every time after code in each of the case you have type the break keyword
   switch (ff) {
     case 'w':
+      // audio is object and Audio is a constructor function
       var a = new Audio("sounds/crash.mp3");
+      // function inside the constructor function
       a.play();
       break;
 
@@ -51,5 +53,83 @@ for (var i = 0; i < f.length; i++) {
   f[i].addEventListener("click", handleclick);
 }
 
-var a = new Audio("sounds/crash.mp3");
-a.play();
+
+document.addEventListener("keypress",handlekeyboard);
+function handlekeyboard(event){
+
+  switch (event.key) {
+    case 'w':
+      // audio is object and Audio is a constructor function
+      var a = new Audio("sounds/crash.mp3");
+      // function inside the constructor function
+      a.play();
+      break;
+
+    case 'a':
+      var a = new Audio("sounds/kick-bass.mp3");
+      a.play();
+      break;
+
+    case 's':
+      var a = new Audio("sounds/snare.mp3");
+      a.play();
+      break;
+
+    case 'd':
+      var a = new Audio("sounds/tom-1.mp3");
+      a.play();
+      break;
+
+    case 'j':
+      var a = new Audio("sounds/tom-2.mp3");
+      a.play();
+      break;
+
+    case 'k':
+      var a = new Audio("sounds/tom-3.mp3");
+      a.play();
+      break;
+
+    case 'l':
+      var a = new Audio("sounds/tom-4.mp3");
+      a.play();
+      break;
+
+    default:
+    break;
+  }
+}
+// here we get the key for bye tapping event.key and you get key pressed in keyboard
+// the argument event is show us event for which the EventListener called the function
+// event is a object as show in below object which specifies information related to the
+// event which invoked the functiom
+// isTrusted: true
+// altKey: false
+// bubbles: true
+// cancelBubble: false
+// cancelable: true
+// charCode: 97
+// code: "KeyA"
+// composed: true
+// ctrlKey: false
+// currentTarget: null
+// defaultPrevented: false
+// detail: 0
+// eventPhase: 0
+// isComposing: false
+// key: "a"
+// keyCode: 97
+// location: 0
+// metaKey: false
+// path: (4) [body.all, html, document, Window]
+// repeat: false
+// returnValue: true
+// shiftKey: false
+// sourceCapabilities: InputDeviceCapabilities {firesTouchEvents: false}
+// srcElement: body.all
+// target: body.all
+// timeStamp: 4433.9000000003725
+// type: "keypress"
+// view: Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+// which: 97
+// [[Prototype]]: KeyboardEvent

@@ -1,0 +1,22 @@
+It does 5 things:
+
+It creates a new object. The type of this object is simply object.
+It sets this new object's internal, inaccessible, [[prototype]] (i.e. __proto__)
+property to be the constructor function's external, accessible, prototype object
+(every function object automatically has a prototype property).
+It makes the this variable point to the newly created object.
+It executes the constructor function, using the newly created object whenever this is mentioned.
+It returns the newly created object, unless the constructor function returns a non-null object reference.
+In this case, that object reference is returned instead.
+Note: constructor function refers to the function after the new keyword, as in
+
+new ConstructorFunction(arg1, arg2)
+Once this is done, if an undefined property of the new object is requested, the script will check
+the object's [[prototype]] object for the property instead. This is how you can get something
+similar to traditional class inheritance in JavaScript.
+
+The most difficult part about this is point number 2. Every object (including functions) has this
+internal property called [[prototype]]. It can only be set at object creation time, either with new,
+with Object.create, or based on the literal (functions default to Function.prototype, numbers to
+Number.prototype, etc.). It can only be read with Object.getPrototypeOf(someObject).
+There is no other way to set or read this value.

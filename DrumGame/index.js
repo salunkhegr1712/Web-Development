@@ -54,11 +54,18 @@ for (var i = 0; i < f.length; i++) {
 }
 
 
-document.addEventListener("keypress",handlekeyboard);
-function handlekeyboard(event){
+document.addEventListener("keypress", handlekeyboard);
 
+function handlekeyboard(event) {
   switch (event.key) {
     case 'w':
+
+      // audio is object and Audio is a constructor function
+      var a = new Audio("sounds/crash.mp3");
+      // function inside the constructor function
+      a.play();
+      break;
+    case 'W':
       // audio is object and Audio is a constructor function
       var a = new Audio("sounds/crash.mp3");
       // function inside the constructor function
@@ -69,8 +76,17 @@ function handlekeyboard(event){
       var a = new Audio("sounds/kick-bass.mp3");
       a.play();
       break;
+    case 'A':
+      var a = new Audio("sounds/kick-bass.mp3");
+      a.play();
+      break;
 
     case 's':
+      var a = new Audio("sounds/snare.mp3");
+      a.play();
+      break;
+
+    case 'S':
       var a = new Audio("sounds/snare.mp3");
       a.play();
       break;
@@ -79,8 +95,16 @@ function handlekeyboard(event){
       var a = new Audio("sounds/tom-1.mp3");
       a.play();
       break;
+    case 'D':
+      var a = new Audio("sounds/tom-1.mp3");
+      a.play();
+      break;
 
     case 'j':
+      var a = new Audio("sounds/tom-2.mp3");
+      a.play();
+      break;
+    case 'J':
       var a = new Audio("sounds/tom-2.mp3");
       a.play();
       break;
@@ -90,13 +114,20 @@ function handlekeyboard(event){
       a.play();
       break;
 
+    case 'K':
+      var a = new Audio("sounds/tom-3.mp3");
+      a.play();
+      break;
+
     case 'l':
       var a = new Audio("sounds/tom-4.mp3");
       a.play();
       break;
-
-    default:
-    break;
+      
+    case 'L':
+      var a = new Audio("sounds/tom-4.mp3");
+      a.play();
+      break;
   }
 }
 // here we get the key for bye tapping event.key and you get key pressed in keyboard

@@ -115,12 +115,21 @@ function handlekeyboard(event) {
   animation(ff);
 }
 
+// read timeout
 function animation(ff) {
   var d = "." + ff
   var c = document.querySelector(d);
-  c.classList.toggle("pressed");
+  c.classList.add("pressed");
+  // the timeout function syntax:
+  // setTimeout(function, milliseconds, param1, param2, ...)
+  let timeout = setTimeout(cd, 100,c);
 
 }
+// function to be called after timeout
+function cd(c){
+  c.classList.remove("pressed");
+}
+
 // here we get the key for bye tapping event.key and you get key pressed in keyboard
 // the argument event is show us event for which the EventListener called the function
 // event is a object as show in below object which specifies information related to the

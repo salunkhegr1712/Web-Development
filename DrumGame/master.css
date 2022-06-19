@@ -24,13 +24,8 @@ span {
   color: #06283D;
 }
 
-.btt:hover {
-  background-color: #D61C4E;
-}
 
-.btt:active {
-  background-color: #FAC213;
-}
+
 
 .btn {
   margin-left: auto;
@@ -51,6 +46,7 @@ p {
 
 .pressed {
   opacity: .2;
+  color: #D61C4E;
 }
 
 .w {

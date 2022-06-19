@@ -1,0 +1,6 @@
+the query selcector is take a name of class namw exactly same like we see in the
+css
+like
+
+.wwww for class
+#new for id

@@ -16,3 +16,4 @@ bootsnipp
 adobecolor
 pesticide extension
 html tree visulizer
+minify to minimize js and css code

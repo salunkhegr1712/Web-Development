@@ -1,0 +1,27 @@
+animations
+$("h1").hide(); it is used to hide a element
+$("h1").show(); it is used to unhide a element
+$("h1").toggle(); it will switch between show and hide
+
+$("h1").fadeOut(); hide with some fading out effect
+$("h1").fadeIn(); this will back the faded out element with some fadein effect
+
+ fade is change in the opacity
+
+slideup and slide down to collapse and un collapse the element
+ slideup and slideDown look quite good as the effect
+$("h1").slideUp();
+$("h1").slideDown();
+
+if you want some pertivular animation according to your need with css
+
+use the animate function() inside you can declare css rules in curly{} braces
+ here you can only provide element which has numerical value not like
+ background-color:red;
+
+$("h1").animate({opacity:.5})
+
+all function will take place in serial
+
+
+$("h1").slideUp().slideDown().hide().show()animate({opacity:.5})

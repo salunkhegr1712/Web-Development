@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "This is npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ghansham Salunkhe",
+  "license": "ISC",
+  "dependencies": {
+    "project-name-generator": "^2.1.9",
+    "superhero": "^2.11.7",
+    "supervillains": "^3.0.0"
+  }
+}

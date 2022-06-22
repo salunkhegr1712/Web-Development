@@ -12,5 +12,6 @@
     "project-name-generator": "^2.1.9",
     "superhero": "^2.11.7",
     "supervillains": "^3.0.0"
-  }
+  },
+  "devDependencies": {}
 }

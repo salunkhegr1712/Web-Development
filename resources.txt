@@ -20,3 +20,5 @@ minify to minimize js and css code
 npm node package manager
 dailyui
 canva
+postman
+json viewer pro

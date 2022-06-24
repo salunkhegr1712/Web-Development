@@ -1,0 +1,71 @@
+endpoint Examples
+
+https://api.kanye.rest/ it does not have extra path and parameters
+https://sv443.net/jokeapi/v2/joke/
+
+
+to access the above API
+
+GET https://sv443.net/jokeapi/v2/joke/ so now you can fetch above API
+
+Path
+
+https://sv443.net/jokeapi/v2/joke/ is endpoint and it will also acts like the root
+so ig have to access any subsystem among it you have to specify Path
+ for above website you have paths like : dark programming
+
+parameters
+
+so there are some functionality or content of website is there which does not have own path
+so we can fetch it with parameters like below
+
+https://sv443.net/jokeapi/v2/joke/programming?contains=debugging
+
+you can use parse parameters followed by ? and parameters are in key value pair in above case contains
+is key and debugging is value.
+
+
+if you want to use multiple parameters then just seprerate them bye &
+https://sv443.net/jokeapi/v2/joke/programming?contains=debugging&type=single
+
+
+endpoint:
+https://www.udemy.com/
+path:
+https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/18125165#questions
+parameters:
+https://www.udemy.com/courses/search/?src=ukw&q=hello
+
+
+authentication
+
+to limit the usage of a api and to controll who can use your api we apply authenticationon it
+a key is passed as parameters in weather api appid is authentication parameter
+
+Example:
+https://api.openweathermap.org/data/2.5/weather?q=pune&appid=943b40f15433ddc035e9b4c69e88a1fa
+lat and lo are location of are
+
+{"coord":{"lon":73.8553,"lat":18.5196},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}]
+,"base":"stations","main":{"temp":302.46,"feels_like":304.55,"temp_min":302.46,"temp_max":302.46,"pressure":1003,
+"humidity":59,"sea_level":1003,"grnd_level":943},"visibility":10000,"wind":{"speed":2,"deg":261,"gust":1.63},
+"clouds":{"all":99},"dt":1656061597,"sys":{"country":"IN","sunrise":1656030578,"sunset":1656078246},
+"timezone":19800,"id":1259229,"name":"Pune","cod":200}
+
+
+https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=943b40f15433ddc035e9b4c69e88a1fa
+{"coord":{"lon":72.8479,"lat":19.0144},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}]
+,"base":"stations","main":{"temp":302.14,"feels_like":308.76,"temp_min":301.09,"temp_max":302.14,"pressure":1002,
+"humidity":84},"visibility":2500,"wind":{"speed":4.63,"deg":170},"clouds":{"all":75},"dt":1656061625,"sys":
+{"type":1,"id":9052,"country":"IN","sunrise":1656030761,"sunset":1656078546},"timezone":19800,"id":1275339,
+"name":"Mumbai","cod":200}
+temp is in kelvin
+
+to change unit just add the parameter
+units=imperial
+https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=943b40f15433ddc035e9b4c69e88a1faunits=imperial
+
+
+api submit there responce in json,htm or xml format
+json= javascript object notation which is quite alike to the javascript objects
+and json is very simple to convert it to the javascript object

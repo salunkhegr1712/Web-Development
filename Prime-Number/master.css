@@ -1,0 +1,18 @@
+body {
+  font-family: cursive;
+  text-align: center;
+  background-color: skyblue;
+}
+h1 {
+  font-size: 4rem;
+  display: inline-block;
+}
+label{
+  display: inline-block;
+}
+input {
+  padding: .5% 2%;
+}
+button {
+  padding: 0.5% 1.5%;
+}

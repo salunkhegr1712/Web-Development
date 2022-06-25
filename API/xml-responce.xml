@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<current>
+    <city id="0" name="Dharmapuri">
+        <coord lon="76.6364" lat="18.7291"></coord>
+        <country>IN</country>
+        <timezone>19800</timezone>
+        <sun rise="2022-06-24T00:18:06" set="2022-06-24T13:33:23"></sun>
+    </city>
+    <temperature value="29.63" min="29.63" max="29.63" unit="celsius"></temperature>
+    <feels_like value="31.61" unit="celsius"></feels_like>
+    <humidity value="57" unit="%"></humidity>
+    <pressure value="1002" unit="hPa"></pressure>
+    <wind>
+        <speed value="4.41" unit="m/s" name="Gentle Breeze"></speed>
+        <gusts value="4.67"></gusts>
+        <direction value="219" code="SW" name="Southwest"></direction>
+    </wind>
+    <clouds value="64" name="broken clouds"></clouds>
+    <visibility value="10000"></visibility>
+    <precipitation mode="no"></precipitation>
+    <weather number="803" value="broken clouds" icon="04d"></weather>
+    <lastupdate value="2022-06-24T13:06:24"></lastupdate>
+</current>

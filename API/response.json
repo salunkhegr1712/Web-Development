@@ -1,1 +1,48 @@
-{"coord":{"lon":73.8553,"lat":18.5196},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":302.57,"feels_like":304.58,"temp_min":302.57,"temp_max":302.57,"pressure":1003,"humidity":58,"sea_level":1003,"grnd_level":943},"visibility":10000,"wind":{"speed":1.74,"deg":260,"gust":1.22},"clouds":{"all":99},"dt":1656063011,"sys":{"country":"IN","sunrise":1656030578,"sunset":1656078246},"timezone":19800,"id":1259229,"name":"Pune","cod":200}
+{
+  "coord": {
+    "lon": 73.8553,
+    "lat": 18.5196
+  },
+
+  "weather": [{
+    "id": 804,
+    "main": "Clouds",
+    "description": "overcast clouds",
+    "icon": "04d"
+  }],
+
+  "base": "stations",
+  "main": {
+    "temp": 302.57,
+    "feels_like": 304.58,
+    "temp_min": 302.57,
+    "temp_max": 302.57,
+    "pressure": 1003,
+    "humidity": 58,
+    "sea_level": 1003,
+    "grnd_level": 943
+  },
+
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.74,
+    "deg": 260,
+    "gust": 1.22
+  },
+
+  "clouds": {
+    "all": 99
+  },
+
+  "dt": 1656063011,
+  "sys": {
+    "country": "IN",
+    "sunrise": 1656030578,
+    "sunset": 1656078246
+  },
+  
+  "timezone": 19800,
+  "id": 1259229,
+  "name": "Pune",
+  "cod": 200
+}

@@ -42,6 +42,7 @@ authentication
 to limit the usage of a api and to controll who can use your api we apply authenticationon it
 a key is passed as parameters in weather api appid is authentication parameter
 
+api token : 943b40f15433ddc035e9b4c69e88a1fa
 Example:
 https://api.openweathermap.org/data/2.5/weather?q=pune&appid=943b40f15433ddc035e9b4c69e88a1fa
 lat and lo are location of are

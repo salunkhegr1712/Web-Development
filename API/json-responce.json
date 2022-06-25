@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 76.6364,
+        "lat": 18.7291
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 29.63,
+        "feels_like": 31.61,
+        "temp_min": 29.63,
+        "temp_max": 29.63,
+        "pressure": 1002,
+        "humidity": 57,
+        "sea_level": 1002,
+        "grnd_level": 938
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.41,
+        "deg": 219,
+        "gust": 4.67
+    },
+    "clouds": {
+        "all": 64
+    },
+    "dt": 1656076116,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1656029886,
+        "sunset": 1656077603
+    },
+    "timezone": 19800,
+    "id": 0,
+    "name": "Dharmapuri",
+    "cod": 200
+}
